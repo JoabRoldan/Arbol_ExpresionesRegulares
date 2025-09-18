@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>arbol de expresion</title>
+    <link rel="stylesheet" href="./public/css/b5/bootstrap.css">
+    <link rel="stylesheet" href="./public/css/font_awesome/all.css">
+    <link rel="stylesheet" href="./public/css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <script src="./public/js/font_awesome/all.js"></script>
+    <script src="./public/js/b5/popper.js"></script>
+    <script src="./public/js/b5/bootstrap.js"></script>
+    <script src="./public/js/leader-line.js"></script>
+    <script src="./public/js/jquery/jquery.js"></script>
+</head>
+<body>
+    <div class="conteiner">
+        <div class="row justify-content-around">
+            <div class="col-mt-4 text-center">
+                <h1 class="text" id="titulo">Arbol de expresiones</h1>
+                <hr>
+            </div>
+            <div class="col-md-4">
+                <label class="mt-2" for="expresion" id="lbl_expresion">Ingrese una operación matemática simple</label>
+                <input type="text" class="form-control mt-2" id="expresion">
+                <button id="btn_generar" class="btn btn-primary w-100 mt-2">Generar arbol</button>
+            </div>
+            <div class="col-4">
+                <div id="contenido_arbol" class="row justify-content-around border border-primary"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="public/js/main.js"></script>
+</body>
+
+</html>
